@@ -1,0 +1,70 @@
+/*          The universe is yours!!!                                 */                                                           
+
+*{
+	font-style: italic;
+}
+
+/* 			Changes the background body to wine red 			*/
+body{
+	background: #890202;
+}
+
+/*          Changes the header 1 to a 16px font with color                                */ 
+
+h1{
+	color: #999;
+	font: 16px Helvetica;	
+}
+
+/*          Pseudo class                                */                                                           
+h1:hover{
+	color: #FFF;
+}
+
+/*          Makes the text bold in unordered list                                 */                                                           
+
+ul{
+	font-weight: bold;
+	
+}
+
+ul li{
+	text-decoration: blink;
+}
+
+/*       All paragraphs have an orange background and white font                                */
+
+p, h3{
+	background-color: #A74514; 
+	color: #FFF;
+}
+
+/*          Pseudo Element                                 */                                                           
+p:first-letter{
+	font-weight: bold;
+}
+
+/*          paragraph with an ID                                 */
+
+ #first{
+	text-decoration: overline; 
+	background-color: #6FEFD4;
+}
+
+/*          Alters header 2                                */  
+
+h2{
+	text-decoration: underline;
+}
+
+/*          Ordered list                               */  
+
+ol{
+	text-decoration: blink; 
+	color: #A61262;
+}
+
+ol li{
+	color: #FFF;
+}
+
